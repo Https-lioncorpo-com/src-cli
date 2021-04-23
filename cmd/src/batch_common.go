@@ -17,12 +17,12 @@ import (
 	"github.com/neelance/parallel"
 	"github.com/pkg/errors"
 	"github.com/sourcegraph/go-diff/diff"
+	"github.com/sourcegraph/sourcegraph/lib/output"
 	"github.com/sourcegraph/src-cli/internal/api"
 	"github.com/sourcegraph/src-cli/internal/batches"
 	"github.com/sourcegraph/src-cli/internal/batches/executor"
 	"github.com/sourcegraph/src-cli/internal/batches/graphql"
 	"github.com/sourcegraph/src-cli/internal/batches/service"
-	"github.com/sourcegraph/src-cli/internal/output"
 )
 
 var (
